@@ -1,3 +1,5 @@
+console.clear()
+
 import { Eq, contramap } from 'fp-ts/lib/Eq'
 
 // <A, B>(f: (b: B) => A) => (fa: Eq<A>) => Eq<B>
@@ -23,3 +25,5 @@ export const eqTest = () => {
   console.log(one)
   console.log(two)
 }
+
+eqTest()

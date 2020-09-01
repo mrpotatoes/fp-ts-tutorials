@@ -1,3 +1,12 @@
+Put back later.
+```
+"husky": {
+    "hooks": {
+      "pre-commit": "yarn typecheck && lint-staged"
+    }
+  },
+````
+
 # Node TypeScript Starter
 
 ## Getting started
