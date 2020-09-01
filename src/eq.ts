@@ -8,6 +8,7 @@ type User = {
   name: string
 }
 
+// How do I do deep comparisons of records?
 const eqNumber: Eq<number> = {
   equals: (x, y) => x === y
 }
