@@ -1,5 +1,3 @@
-console.clear()
-
 import { Eq, contramap } from 'fp-ts/lib/Eq'
 import { assert } from 'console'
 
@@ -8,7 +6,7 @@ type User = {
   name: string
 }
 
-// How do I do deep comparisons of records?
+// @TODO: How do I do deep comparisons of records?
 const eqNumber: Eq<number> = {
   equals: (x, y) => x === y
 }
