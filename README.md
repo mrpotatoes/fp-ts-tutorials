@@ -7,50 +7,26 @@ Put back later.
   },
 ````
 
-# Node TypeScript Starter
+## Links for self
+### Series
+* https://dev.to/gcanti/series/679
+* https://dev.to/gcanti/series/680
 
-## Getting started
+### Api calls
+* https://dev.to/gnomff_65/fp-ts-and-beautiful-api-calls-1f55
+* http://blog.wolksoftware.com/data-fetching-in-react-the-functional-way-powered-by-typescript-io-ts-fp-ts
 
-1. Clone this repository and open it
+### Misc
+* https://grossbart.github.io/fp-ts-recipes/#/async
+* https://medium.com/@drboolean/monoidal-contravariant-functors-are-actually-useful-1032211045c4
+* https://frontendmasters.com/courses/hardcore-js-patterns/contramap/
+* https://dev.to/gcanti/type-holes-in-typescript-2lck
+* https://dev.to/gcanti/getting-started-with-fp-ts-setoid-39f3
+* https://dev.to/gcanti/getting-started-with-fp-ts-either-vs-validation-5eja
+* https://dev.to/gcanti/getting-started-with-fp-ts-reader-1ie5
+* https://meeshkan.com/blog/functional-programming-for-frontend-pipe/
+* https://dev.to/gcanti/interoperability-with-non-functional-code-using-fp-ts-432e
 
-```bash
-$ git clone https://github.com/HorusGoul/node-ts-starter your-next-project
-$ cd your-next-project
-```
-
-2. Install dependencies
-
-```bash
-$ yarn
-```
-
-3. Launch the dev mode
-
-```bash
-$ yarn dev
-```
-
-4. You can start coding! The entry point is located in `src/index.ts`.
-
-## What's preconfigured?
-
-The intent of this starter is to be really slim so it's not a nightmare to remove or change stuff, that's why there are just a few things preconfigured:
-
-- Babel
-- TypeScript
-- ESLint
-- Prettier
-- Husky pre-commit hook that runs ESLint and type checks the code base
-- A few npm scripts
-
-## Scripts
-
-- `yarn dev`. Runs the project in dev mode, which means that it won't check types and will restart with every change you make.
-- `yarn build`. Compiles the project to the `./dist` folder.
-- `yarn typecheck`. Checks the typings of the project. Gets executed before trying to create a new commit but you can also run it manually.
-- `yarn start`. Runs the compiled program. Remember to execute `yarn build` before attempting to launch the program.
-- `yarn lint`. Runs ESLint. You can append `--fix` in order to fix autofixable issues.
-
-## What to do next
-
-Adapt the configuration to your needs and start coding!
+### Out of date
+* https://github.com/davetayls/exploring-fp-ts-series
+* https://davetayls.me/blog/2018/06/09/fp-ts-02-handling-error-cases#view-some-code-examples

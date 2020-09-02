@@ -1,3 +1,4 @@
+// @see: https://dev.to/gcanti/getting-started-with-fp-ts-setoid-39f3
 import { Eq, contramap } from 'fp-ts/lib/Eq'
 import { assert } from 'console'
 
@@ -8,6 +9,7 @@ type User = {
 
 // @TODO: How do I do deep comparisons of records?
 const eqNumber: Eq<number> = {
+  // Follows this signature: (x: A, y: A) => boolean
   equals: (x, y) => x === y
 }
 

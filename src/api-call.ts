@@ -1,7 +1,7 @@
 // https://medium.com/better-programming/functional-programming-how-to-send-and-validate-api-requests-in-typescript-5954e99f9418
 import { either, taskEither } from 'fp-ts'
-import { flow } from 'fp-ts/lib/function'
-import { pipe } from 'fp-ts/lib/pipeable'
+import { flow } from 'fp-ts/function'
+import { pipe } from 'fp-ts/pipeable'
 import { fold } from 'fp-ts/Either'
 import axios from 'axios'
 
