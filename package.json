@@ -6,6 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsnd --respawn -r @babel/register ./index.ts",
+    "api": "tsnd --respawn -r @babel/register ./src/api-call.ts",
+    "pwd": "tsnd --respawn -r @babel/register ./src/pwd.ts",
     "build": "babel ./src -d ./dist --extensions .ts",
     "typecheck": "tsc",
     "start": "node dist/index.js",
