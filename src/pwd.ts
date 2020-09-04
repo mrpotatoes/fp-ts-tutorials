@@ -1,13 +1,17 @@
 console.clear()
 
-import { map } from 'fp-ts/lib/Either'
-import { flow, pipe } from 'fp-ts/lib/function'
+import * as E from 'fp-ts/lib/Either'
 import * as Password from './api.password'
+import { flow, pipe } from 'fp-ts/lib/function'
 
 const hashedPassword = flow(
   Password.of,
   Password.validate({ minLength: 8, capitalLetterRequired: true }),
-  map(Password.hashed),
+  E.map(Password.hashed),
+  E.fold(
+    () => 'This failed, sorry',
+    (a) => `a some containing: ${a.value}`
+  )
 )
 
 // These two are analogus.
