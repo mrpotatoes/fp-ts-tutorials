@@ -1,13 +1,12 @@
 console.clear()
 
-import chalk from 'chalk'
 import crypto from 'crypto'
 import * as E from 'fp-ts/Either'
-import { flow, pipe } from 'fp-ts/function'
-import * as Password from './api.password'
 
-const greenHeading = chalk.white.bgGreen.bold
-const redHeading = chalk.white.bgRed.bold
+import * as Password from './api.password'
+import { flow, pipe } from 'fp-ts/function'
+import { greenHeading, redHeading } from '../common'
+
 
 const onLeft = (e: any) => `This failed, sorry (with full stack)\n${e.stack}`
 const onRight = (a: any) => `a some containing: ${a.value}`
