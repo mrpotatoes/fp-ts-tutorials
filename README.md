@@ -15,6 +15,7 @@ Put back later.
 * https://github.com/WonderPanda/TsErrorFlow
 * https://github.com/patroza/fp-app-framework
 * https://patrickroza.com/blog/result-composition-and-error-handling/
+* https://patrickroza.com/blog/result-composition-and-error-handling/
 * https://github.com/johnpaulada/baccano
 
 ### Series

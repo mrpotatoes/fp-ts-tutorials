@@ -4,7 +4,7 @@ export class MinLengthValidationError extends Error {
   public minLength: number
 
   private constructor(minLength: number) {
-    super('password fails to meet min length requirement: ${minLength}')
+    super(`password fails to meet min length requirement: ${minLength}`)
     this._tag = 'PasswordMinLengthValidationError'
     this.minLength = minLength
   }

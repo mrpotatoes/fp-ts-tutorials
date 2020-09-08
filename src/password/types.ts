@@ -1,4 +1,4 @@
-import { MinLengthValidationError, CapitalLetterMissingValidationError } from '../errors/password'
+import { MinLengthValidationError, CapitalLetterMissingValidationError } from './errors'
 
 export type PasswordValidationError = | MinLengthValidationError | CapitalLetterMissingValidationError
 

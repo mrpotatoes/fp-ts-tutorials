@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "tsnd --respawn -r @babel/register ./index.ts",
     "api": "tsnd --respawn -r @babel/register ./src/api-call.ts",
-    "pwd": "tsnd --respawn -r @babel/register ./src/pwd.ts",
+    "pwd": "tsnd --respawn -r @babel/register ./src/password",
     "build": "babel ./src -d ./dist --extensions .ts",
     "typecheck": "tsc",
     "start": "node dist/index.js",
@@ -41,6 +41,7 @@
   },
   "dependencies": {
     "axios": "0.19.0",
+    "chalk": "^4.1.0",
     "figlet": "^1.5.0",
     "fp-ts": "^2.8.2"
   }
