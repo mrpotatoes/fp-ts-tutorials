@@ -60,9 +60,12 @@ Put back later.
 * https://medium.com/better-programming/functional-programming-how-to-send-and-validate-api-requests-in-typescript-5954e99f9418
 * https://www.infoq.com/presentations/javascript-modeling-side-effects/
 * https://medium.com/@david.komer/a-functional-javascript-stack-2019-6f80c8600bda
+* http://anttih.com/articles/2018/07/05/purely-functional-di
+* https://dev.to/peerhenry/functional-programming-in-typescript-using-fp-ts-readertaskeither-1pei
 
 ### Out of date
 * https://github.com/davetayls/exploring-fp-ts-series
 * https://davetayls.me/blog/2018/06/09/fp-ts-02-handling-error-cases#view-some-code-examples
 * https://codesandbox.io/s/kw0y52lxpo?file=/src/index.ts
 * https://codesandbox.io/s/ly6n0xkzqz?file=/src/index.tsx
+
