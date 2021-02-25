@@ -11,6 +11,7 @@
     "api:folding": "tsnd --respawn -r @babel/register ./src/api/folding",
     "api:error": "tsnd --respawn -r @babel/register ./src/api/async-error-handling",
     "reader": "tsnd --respawn -r @babel/register ./src/reader",
+    "pipe": "tsnd --respawn -r @babel/register ./src/pipe/_index",
     "pwd": "tsnd --respawn -r @babel/register ./src/password",
     "build": "babel ./src -d ./dist --extensions .ts",
     "typecheck": "tsc",
